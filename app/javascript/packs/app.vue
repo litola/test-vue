@@ -1,6 +1,7 @@
 <template>
-  <div id="app">
+  <div id="hello">
     <p>{{ message }}</p>
+    <input v-model="message">
   </div>
 </template>
 
@@ -8,15 +9,10 @@
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+      message: "I change it  Vue!",
+      name: "john"
     }
   }
 }
 </script>
 
-<style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
-</style>

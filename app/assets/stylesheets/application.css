@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+#app {
+  font-size: 3em;
+  text-align: center;
+  color: red;
+}
